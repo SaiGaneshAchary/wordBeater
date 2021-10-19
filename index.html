@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WordBeater</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <header>
+        <h1>WordBeater</h1>
+      </header>
+      <main>
+        <div>
+          <h2 id="text">Hello!</h2>
+        </div>
+        <div>
+          <input type="text" placeholder="Enter the word here..." />
+          <select>
+            <option value="Beginner">Beginner</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Expert">Expert</option>
+          </select> 
+          <div class="btns">
+            <button id="start">Start</button>
+            <button id="reset">Reset</button>
+          </div>
+          <br>
+          <h4 id="timer">Please press the start</h4>
+          <h6 id="message">
+              
+          </h6>
+        </div>
+        <div class="score">
+          <h4 id="time">Time-left:</h4>
+          <h4 id="score">Score:</h4>
+        </div>
+        <div class="inst">
+            <span>
+                <h3>Instructions</h3>
+                <p>
+                  Please press the start button to start and reset button to reset the game.
+                </p>
+            </span>
+        </div>
+      </main>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
